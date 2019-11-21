@@ -1,0 +1,17 @@
+<h1 style='color:orange'>Hello Golang!</h1>
+<h2>how are you!</h2>
+<img id='i1' src="http://service.mobtou.com/data/images/191119/19111909211474222685.png">
+<br/>
+<button id='b1'>点我</button>
+<button id='b2'>点我2</button>
+<button id='b3'>点我3</button>
+<script>
+document.getElementById('b1').onclick=function(){
+    document.getElementById('i1').src="http://news.youth.cn/jsxw/201706/W020170607558140944427.jpg"
+    }
+</script>
+<script>
+document.getElementById('b2').onclick=function(){
+    document.getElementById('i1').src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1419871916,3632936537&fm=26&gp=0.jpg"
+    }
+</script>
